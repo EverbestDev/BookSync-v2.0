@@ -42,7 +42,7 @@
             />
           </svg>
           <a
-            href="https://booksync2.vercell.app"
+            href="https://booksyncv2.vercell.app"
             target="_blank"
             rel="noopener noreferrer"
             class="text-base hover:underline"
