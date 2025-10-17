@@ -169,7 +169,7 @@ const successMessage = ref('')
 const errorMessage = ref('')
 const contactForm = ref(null)
 
-const formspreeEndpoint = import.meta.env.VITE_FORMSPREE_ENDPOINT 
+const formspreeEndpoint = import.meta.env.FORMSPREE_ENDPOINT 
 
 const handleSubmit = async () => {
   // Reset messages and errors
