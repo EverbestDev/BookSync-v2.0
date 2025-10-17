@@ -153,9 +153,9 @@ const hasMore = ref(true)
 const latestQuery = ref({ query: 'bestsellers', category: '', sort: '' })
 
 // CONSTANTS
-const GOOGLE_API_URL = process.env.VITE_GOOGLE_API_URL
-const API_KEY = process.env.VITE_API_KEY
-const MAX_RETRIES = process.env.VITE_MAX_RETRIES
+const GOOGLE_API_URL = 'https://www.googleapis.com/books/v1/volumes'
+const API_KEY = 'AIzaSyAj4CL_VJkXO6lwLwfXTzuDqXr_Hxe-sJM'
+const MAX_RETRIES = 3
 
 // COMPUTED
 const currentView = computed(() => {
