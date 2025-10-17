@@ -42,7 +42,7 @@
             />
           </svg>
           <a
-            href="https://booksyncv2.vercell.app"
+            href="https://booksync2.vercell.app"
             target="_blank"
             rel="noopener noreferrer"
             class="text-base hover:underline"
@@ -169,7 +169,7 @@ const successMessage = ref('')
 const errorMessage = ref('')
 const contactForm = ref(null)
 
-const formspreeEndpoint = import.meta.env.FORMSPREE_ENDPOINT 
+const formspreeEndpoint = import.meta.env.VITE_FORMSPREE_ENDPOINT 
 
 const handleSubmit = async () => {
   // Reset messages and errors
